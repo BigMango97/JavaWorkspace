@@ -12,3 +12,4 @@ public class _02_Interface {
         videoReporter.report();
     }
 }
+

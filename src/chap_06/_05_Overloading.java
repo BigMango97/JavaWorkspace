@@ -1,6 +1,9 @@
 package chap_06;
 // 이름이 같은 메서드를 여러개 만드는 것을 의미한다.
-// 오버로딩은 전달값의 타입,자료형이 다르거나 전달값 갯수가 다를경우 중복선언 가능
+// 오버로딩을 만족하는 조건
+// 1. 메서드 이름이 같아야한다.
+// 2. 매개변수의 개수 또는 타입이 달라야한다.
+// 3. 반환 타입은 관계없다.
 public class _05_Overloading {
     public  static int getPower(int number){
         int result = number * number;

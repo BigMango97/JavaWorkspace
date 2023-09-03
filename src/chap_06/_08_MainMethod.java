@@ -1,6 +1,6 @@
 package chap_06;
-
 public class _08_MainMethod {
+    // 메인 메소드 : 자바 프로그램이 실행될때 가장 처음으로 진입하는 부분
     public static void main(String[] args) {
         for (String s : args) {
             System.out.println(s);
